@@ -29,6 +29,7 @@ public class BigFileUploadController {
                        Integer chunk,
                        MultipartFile file) throws IOException {
         Log.info("大文件上传");
+        Log.info("新测试消息");
         if (chunks != null && chunks != 0) {
             fileService.uploadWithBlock(name, md5,size,chunks,chunk,file);
         } else {
