@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql:///MyUploader?useUnicode=true&characterEncoding=utf-8&serverTimeZone=UTC&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/MyUploader?useUnicode=true&characterEncoding=utf-8&serverTimeZone=UTC&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
   servlet:
     multipart:
